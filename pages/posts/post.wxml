@@ -1,0 +1,29 @@
+<!--pages/posts/post.wxml-->
+<view>
+  <swiper indicator-dots='true' autoplay='true' interval='2000' circular='true'>
+    <swiper-item>
+      <image src='/images/iqiyi.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/wx.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/vr.png'></image>
+    </swiper-item>
+  </swiper>
+  <view class='.post-container'>
+    <view class='post-author-date'>
+      <image src='/images/2.png' class='post-author'></image>
+      <text class='post-date'>tec 25 2018</text>
+    </view>
+    <text class='post-title'>万圣节复刻一览</text>
+    <image src='/images/fgo_1.png' class='post-img'></image>
+    <text class='post-content'>11月12日-11月26日，国服将开启万圣节二期复刻限时活动「复刻：超极☆大南瓜村 ～踏上冒险之旅 轻量版</text>
+    <view class='post-like'>
+      <image src='/images/view.png' class='post-like-img'></image>
+      <text class='post-like-font'>3245</text>
+      <image src='/images/chat1.png' class='post-like-img'></image>
+      <text class='post-like-font'>198</text>
+    </view>
+  </view>
+</view>
